@@ -118,7 +118,7 @@ instance_state     = "running"
 ### Step 7 - Verify on AWS Console
 
 - Go to AWS Console > EC2 > Instances > Region: ap-south-1
-- Confirm instance named `Terraform-Instance` is in running state with type `t3.micro`
+- Confirm instance named `Terraform-Student-Instance` is in running state with type `t3.micro`
 
 ---
 
@@ -129,7 +129,7 @@ instance_state     = "running"
 | `aws_region` | `ap-south-1` | AWS region for deployment |
 | `ami_id` | `ami-0f58b397bc5c1f2e8` | Amazon Linux AMI (ap-south-1) |
 | `instance_type` | `t3.micro` | EC2 instance type |
-| `instance_name` | `Terraform-Instance` | Name tag for the instance |
+| `instance_name` | `Terraform-Student-Instance` | Name tag for the instance |
 
 ---
 
